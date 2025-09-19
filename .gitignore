@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/ # Jupyter's temporary autosave checkpoints
+
+# Editor-specific files
+.vscode/            # VS Code settings (if project-specific and not shared)
+.idea/              # IntelliJ/PyCharm IDE settings
+
+# Operating System files
+.DS_Store           # macOS system files
+Thumbs.db           # Windows thumbnail cache
+desktop.ini         # Windows folder customization
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp               # Vim swap files
+
+# Database files
+*.sqlite3           # SQLite databases (if local to project)
+
+# Environment variables / API keys (NEVER commit these!)
+.env                # Common for storing environment variables
+*.env
